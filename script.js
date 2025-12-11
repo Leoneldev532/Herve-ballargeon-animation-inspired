@@ -62,7 +62,6 @@ window.addEventListener("DOMContentLoaded", () => {
     .to([".t-r", ".t-l", ".t-b", ".t-t"], {
       delay: 0.6,
       opacity: 1,
-      mixBlendMode: "difference",
     })
     .to(heroMainTextArray, {
       delay: 0.3,
